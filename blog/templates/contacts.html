@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,7 +39,7 @@
     <div class="bottom">
         <div class="container">
             <div class="inner">
-                <a href="#!" class="logo"><img src="../../assets/img/svg/logo.svg" alt="logo" class="logo"></a>
+                <a href="{% url 'home' %}" class="logo"><img src="../../assets/img/svg/logo.svg" alt="logo" class="logo"></a>
                 <nav class="nav">
                     <div class="close-nav">
                         <span></span>
@@ -195,3 +199,5 @@
 <script src="../../assets/js/script.js"></script>
 </body>
 </html>
+
+{% endblock %}

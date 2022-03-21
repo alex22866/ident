@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,7 +37,7 @@
     <div class="bottom">
         <div class="container">
             <div class="inner">
-                <a href="#!" class="logo"><img src="../../assets/img/svg/logo.svg" alt="logo" class="logo"></a>
+                <a href="{% url 'home' %}" class="logo"><img src="../../assets/img/svg/logo.svg" alt="logo" class="logo"></a>
                 <nav class="nav">
                     <div class="close-nav">
                         <span></span>
@@ -50,9 +52,9 @@
                         </div>
                     </div>
                     <a href="#!" class="link header-font">Наши клиенты</a>
-                    <a href="#!" class="link header-font">Сервис</a>
+                    <a href="{% url 'service' %}" class="link header-font">Сервис</a>
                     <div class="link-wrap">
-                        <a href="#!" class="link header-font">О компании</a>
+                        <a href="{% url 'about' %}" class="link header-font">О компании</a>
                         <div class="link-list">
                             <a href="#!" class="link-list-item header-font">Стоматологическое инструменты</a>
                             <a href="#!" class="link-list-item header-font">Стоматологическое оборудование</a>
@@ -60,7 +62,7 @@
                         </div>
                     </div>
                     <div class="link-wrap">
-                        <a href="#!" class="link header-font">Контакты</a>
+                        <a href="" class="link header-font">Контакты</a>
                         <div class="link-list">
                             <a href="#!" class="link-list-item header-font">Стоматологическое инструменты</a>
                             <a href="#!" class="link-list-item header-font">Стоматологическое оборудование</a>
